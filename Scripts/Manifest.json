@@ -1,0 +1,262 @@
+[
+  {
+    "ID": "Language-ZH",
+    "Type": "JSON",
+    "Url": "/Languages/zh.json"
+  },
+  {
+    "ID": "Language",
+    "Type": "SCRIPT",
+    "Url": "/Scripts/Language.js"
+  },
+  {
+    "ID": "Font-Eng-Regular",
+    "Type": "FONT",
+    "Url": "/Assets/Eng-Regular.ttf"
+  },
+  {
+    "ID": "Font-Chn-Regular",
+    "Type": "FONT",
+    "Url": "/Assets/Chn-Regular.ttf"
+  },
+  {
+    "ID": "Css-Main",
+    "Type": "CSS",
+    "Url": "/Styles/Main.css"
+  },
+  {
+    "ID": "Sound-Effect-Ding",
+    "Type": "SOUND",
+    "Url": "/Assets/Ding.mp3"
+  },
+  {
+    "ID": "Address.svg",
+    "Type": "IMAGE",
+    "Url": "/Assets/Address.svg"
+  },
+  {
+    "ID": "Close.svg",
+    "Type": "IMAGE",
+    "Url": "/Assets/Close.svg"
+  },
+  {
+    "ID": "Compass.png",
+    "Type": "IMAGE",
+    "Url": "/Assets/Compass.png"
+  },
+  {
+    "ID": "AddressCss",
+    "Type": "CSS",
+    "Url": "/Styles/Address.css"
+  },
+  {
+    "ID": "AddressPage",
+    "Type": "HTML",
+    "Url": "/Address.html"
+  },
+  {
+    "ID": "AddressScript",
+    "Type": "SCRIPT",
+    "Url": "/Scripts/Address.js"
+  },
+  {
+    "ID": "CopyrightCss",
+    "Type": "CSS",
+    "Url": "/Styles/Copyright.css"
+  },
+  {
+    "ID": "CopyrightPage",
+    "Type": "HTML",
+    "Url": "/Copyright.html"
+  },
+  {
+    "ID": "CopyrightScript",
+    "Type": "SCRIPT",
+    "Url": "/Scripts/Copyright.js"
+  },
+  {
+    "ID": "Sound-Bgm-1",
+    "Type": "SOUND",
+    "Url": "/Assets/BGM-1.mp3"
+  },
+  {
+    "ID": "Slash.svg",
+    "Type": "IMAGE",
+    "Url": "/Assets/Slash.svg"
+  },
+  {
+    "ID": "Disc.svg",
+    "Type": "IMAGE",
+    "Url": "/Assets/Disc.svg"
+  },
+  {
+    "ID": "MusicControlCss",
+    "Type": "CSS",
+    "Url": "/Styles/MusicControl.css"
+  },
+  {
+    "ID": "MusicControlPage",
+    "Type": "HTML",
+    "Url": "/MusicControl.html"
+  },
+  {
+    "ID": "MusicControlScript",
+    "Type": "SCRIPT",
+    "Url": "/Scripts/MusicControl.js"
+  },
+  {
+    "ID": "F1-L.jpg",
+    "Type": "IMAGE",
+    "Url": "/Assets/F1-L.jpg"
+  },
+  {
+    "ID": "F1-R.jpg",
+    "Type": "IMAGE",
+    "Url": "/Assets/F1-R.jpg"
+  },
+  {
+    "ID": "F2.jpg",
+    "Type": "IMAGE",
+    "Url": "/Assets/F2.jpg"
+  },
+  {
+    "ID": "F3.jpg",
+    "Type": "IMAGE",
+    "Url": "/Assets/F3.jpg"
+  },
+  {
+    "ID": "F4.jpg",
+    "Type": "IMAGE",
+    "Url": "/Assets/F4.jpg"
+  },
+  {
+    "ID": "F5.jpg",
+    "Type": "IMAGE",
+    "Url": "/Assets/F5.jpg"
+  },
+  {
+    "ID": "F6.jpg",
+    "Type": "IMAGE",
+    "Url": "/Assets/F6.jpg"
+  },
+  {
+    "ID": "F7.jpg",
+    "Type": "IMAGE",
+    "Url": "/Assets/F7.jpg"
+  },
+  {
+    "ID": "F9.jpg",
+    "Type": "IMAGE",
+    "Url": "/Assets/F9.jpg"
+  },
+  {
+    "ID": "F11.jpg",
+    "Type": "IMAGE",
+    "Url": "/Assets/F11.jpg"
+  },
+  {
+    "ID": "F13.jpg",
+    "Type": "IMAGE",
+    "Url": "/Assets/F13.jpg"
+  },
+  {
+    "ID": "F16.jpg",
+    "Type": "IMAGE",
+    "Url": "/Assets/F16.jpg"
+  },
+  {
+    "ID": "F17.jpg",
+    "Type": "IMAGE",
+    "Url": "/Assets/F17.jpg"
+  },
+  {
+    "ID": "F18.jpg",
+    "Type": "IMAGE",
+    "Url": "/Assets/F18.jpg"
+  },
+  {
+    "ID": "F19.jpg",
+    "Type": "IMAGE",
+    "Url": "/Assets/F19.jpg"
+  },
+  {
+    "ID": "F20.jpg",
+    "Type": "IMAGE",
+    "Url": "/Assets/F20.jpg"
+  },
+  {
+    "ID": "F21.jpg",
+    "Type": "IMAGE",
+    "Url": "/Assets/F21.jpg"
+  },
+  {
+    "ID": "F22.jpg",
+    "Type": "IMAGE",
+    "Url": "/Assets/F22.jpg"
+  },
+  {
+    "ID": "F23.jpg",
+    "Type": "IMAGE",
+    "Url": "/Assets/F23.jpg"
+  },
+  {
+    "ID": "F24.jpg",
+    "Type": "IMAGE",
+    "Url": "/Assets/F24.jpg"
+  },
+  {
+    "ID": "F25.jpg",
+    "Type": "IMAGE",
+    "Url": "/Assets/F25.jpg"
+  },
+  {
+    "ID": "F26.jpg",
+    "Type": "IMAGE",
+    "Url": "/Assets/F26.jpg"
+  },
+  {
+    "ID": "F27.jpg",
+    "Type": "IMAGE",
+    "Url": "/Assets/F27.jpg"
+  },
+  {
+    "ID": "F28.jpg",
+    "Type": "IMAGE",
+    "Url": "/Assets/F28.jpg"
+  },
+  {
+    "ID": "F29.jpg",
+    "Type": "IMAGE",
+    "Url": "/Assets/F29.jpg"
+  },
+  {
+    "ID": "F30.jpg",
+    "Type": "IMAGE",
+    "Url": "/Assets/F30.jpg"
+  },
+  {
+    "ID": "F31.jpg",
+    "Type": "IMAGE",
+    "Url": "/Assets/F31.jpg"
+  },
+  {
+    "ID": "SliderScript",
+    "Type": "SCRIPT",
+    "Url": "/Scripts/Slider.js"
+  },
+  {
+    "ID": "SliderCss",
+    "Type": "CSS",
+    "Url": "/Styles/Slider.css"
+  },
+  {
+    "ID": "SliderPage",
+    "Type": "HTML",
+    "Url": "/SliderPage.html"
+  },
+  {
+    "ID": "OpeningScript",
+    "Type": "SCRIPT",
+    "Url": "/Scripts/Opening.js"
+  }
+]

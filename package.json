@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "typescript": "^4.4.4"
+  },
+  "name": "wedding-invitation",
+  "description": "Just a simple invitation for our wedding.",
+  "version": "1.0.0",
+  "devDependencies": {
+    "http-server": "^14.0.0"
+  },
+  "scripts": {
+    "start:dev": "http-server",
+    "build:dev": "tsc -p . -w",
+    "build": "tsc -p ."
+  },
+  "author": "sOxOs",
+  "license": "ISC"
+}

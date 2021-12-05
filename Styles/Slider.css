@@ -1,0 +1,158 @@
+body>div.Slider { background: #111; opacity: 0; width: 100vw; height: 100vh; position: absolute; top: 0; left: 0; z-index: 0; overflow: hidden; }
+/* body>div.Slider.Shown { opacity: 1; } */
+body>div.Slider.Shown { opacity: 1; transition: all 1s linear; }
+body>div.Slider div.Frame { width: 100%; height: 100%; position: absolute; z-index: 2; }
+body>div.Slider div.Frame { font-size: 1.6rem; line-height: 100vh; text-align: center; }
+
+body>div.Slider div.Frame.F0-0 { opacity: 0; left: 0; height: 100vh; transform: scale(4); }
+body>div.Slider div.Frame.F0-0 { font-size: 1rem; line-height: 80vh; text-align: center; }
+body>div.Slider div.Frame.F0-0.S0 { top: 0; transform: scale(1); opacity: 1; transition: opacity 2s linear, transform 20s linear, top 1s linear; }
+
+body>div.Slider div.Frame.F0-1 { opacity: 0; left: 0; height: 100vh; transform: scale(4); }
+body>div.Slider div.Frame.F0-1 { font-size: 1rem; line-height: 120vh; text-align: center; }
+body>div.Slider div.Frame.F0-1.S0 { top: 0; transform: scale(1); opacity: 1; transition: opacity 2s linear, transform 20s linear, top 1s linear; }
+
+body>div.Slider div.Frame.F0-2 { opacity: 0; left: 0; height: 100vh; transform: scale(1); }
+body>div.Slider div.Frame.F0-2 { font-size: 1rem; line-height: 100vh; text-align: center; }
+body>div.Slider div.Frame.F0-2.S0 { top: 0; transform: scale(4); opacity: 1; transition: opacity 2s linear, transform 20s linear, top 1s linear; }
+
+body>div.Slider div.Frame.F1 div { height: 100%; display: inline-block; position: absolute; }
+body>div.Slider div.Frame.F1 div.Left { width: 55vw; background: url('F1-L.jpg') no-repeat right center; background-size: auto 100%; }
+body>div.Slider div.Frame.F1 div.Right { width: 45vw; background: url('F1-R.jpg') no-repeat left center; background-size: auto 100%; }
+body>div.Slider div.Frame.F1 div.Left { top: 100vh; left: 100vw; transition: all 7s ease-out; }
+body>div.Slider div.Frame.F1 div.Right { top: -100vh; left: -45vw; transition: all 7s ease-out; }
+body>div.Slider div.Frame.F1.S0 div.Left { top: 0; left: 45vw; }
+body>div.Slider div.Frame.F1.S0 div.Right { top: 0; left: 0; }
+body>div.Slider div.Frame.F1.S1 div.Left { left: 0; transition: all 2.7s ease-out; }
+body>div.Slider div.Frame.F1.S1 div.Right { left: 55vw; transition: all 2.7s ease-out; }
+
+body>div.Slider div.Frame.F2 { background: url('F2.jpg') no-repeat center top; background-size: cover; }
+body>div.Slider div.Frame.F2 { opacity: 0; left: 0; height: 100vh; transform: scale(1.5) rotate(15deg); }
+body>div.Slider div.Frame.F2.S0 { top: 0; transform: scale(1); opacity: 1; transition: opacity 2s linear, transform 7s linear, top 7s linear; }
+
+body>div.Slider div.Frame.F3 { background: url('F3.jpg') no-repeat center top; background-size: cover; }
+body>div.Slider div.Frame.F3 { opacity: 0; left: 0; height: 100vh; transform: scale(1.5) rotate(15deg); }
+body>div.Slider div.Frame.F3.S0 { top: 0; transform: scale(1); opacity: 1; transition: opacity 2s linear, transform 7s linear, top 7s linear; }
+
+body>div.Slider div.Frame.F4 { background: url('F4.jpg') no-repeat center top; background-size: cover; }
+body>div.Slider div.Frame.F4 { opacity: 0; left: 0; height: 100vh; transform: scale(1.5); }
+body>div.Slider div.Frame.F4.S0 { top: 0; transform: scale(1); opacity: 1; transition: opacity 2s linear, transform 7s linear, top 7s linear; }
+
+body>div.Slider div.Frame.F5 { background: url('F5.jpg') no-repeat center top; background-size: cover; }
+body>div.Slider div.Frame.F5 { opacity: 0; left: 0; width: 100vw; height: 100vh; transform: scale(1.5); }
+body>div.Slider div.Frame.F5.S0 { top: 0; transform: scale(1); opacity: 1; transition: opacity 2s linear, transform 7s linear, top 7s linear; }
+
+body>div.Slider div.Frame.F6 { background: url('F6.jpg') no-repeat center bottom; background-size: cover; }
+body>div.Slider div.Frame.F6 { opacity: 0; left: -50vw; width: 260vw; height: 100vh; transform: scale(1); }
+body>div.Slider div.Frame.F6.S0 { top: 0; opacity: 1; left: 0; transform: scale(1); transition: opacity 2s linear, transform 7s linear, left 7s linear; }
+
+body>div.Slider div.Frame.F7 { background: url('F7.jpg') no-repeat center top; background-size: cover; }
+body>div.Slider div.Frame.F7 { opacity: 0; left: 0; height: 100vh; transform: scale(1.5); }
+body>div.Slider div.Frame.F7.S0 { top: 0; transform: scale(1); opacity: 1; transition: opacity 1s linear, transform 5s linear, top 2s linear; }
+
+body>div.Slider div.Frame.F8 { background: #111; }
+body>div.Slider div.Frame.F8 { opacity: 0; left: 0; height: 100vh; transform: scale(1.5); }
+body>div.Slider div.Frame.F8 { font-size: 1.6rem; line-height: 100vh; text-align: center; }
+body>div.Slider div.Frame.F8.S0 { top: 0; transform: scale(1); opacity: 1; transition: opacity 2s linear, transform 5s linear, top 1s linear; }
+
+body>div.Slider div.Frame.F9 { background: url('F9.jpg') no-repeat center top; background-size: cover; }
+body>div.Slider div.Frame.F9 { opacity: 0; left: 0; height: 100vh; transform: scale(1.3); }
+body>div.Slider div.Frame.F9.S0 { top: 0; transform: scale(1); opacity: 1; transition: opacity 1s linear, transform 5s linear, top 2s linear; }
+
+body>div.Slider div.Frame.F10 { background: #111; }
+body>div.Slider div.Frame.F10 { opacity: 0; left: 0; height: 100vh; transform: scale(1.5); }
+body>div.Slider div.Frame.F10 { font-size: 1.6rem; line-height: 100vh; text-align: center; }
+body>div.Slider div.Frame.F10.S0 { top: 0; transform: scale(1); opacity: 1; transition: opacity 2s linear, transform 5s linear, top 1s linear; }
+
+body>div.Slider div.Frame.F11 { background: url('F11.jpg') no-repeat center top; background-size: cover; }
+body>div.Slider div.Frame.F11 { opacity: 0; left: 0; height: 100vh; transform: scale(1.5); }
+body>div.Slider div.Frame.F11.S0 { top: 0; transform: scale(1); opacity: 1; transition: opacity 1s linear, transform 5s linear, top 2s linear; }
+
+body>div.Slider div.Frame.F12 { background: #111; }
+body>div.Slider div.Frame.F12 { opacity: 0; left: 0; height: 100vh; transform: scale(1.5); }
+body>div.Slider div.Frame.F12 { font-size: 1.6rem; line-height: 100vh; text-align: center; }
+body>div.Slider div.Frame.F12.S0 { top: 0; transform: scale(1); opacity: 1; transition: opacity 2s linear, transform 5s linear, top 1s linear; }
+
+body>div.Slider div.Frame.F13 { background: url('F13.jpg') no-repeat center top; background-size: cover; }
+body>div.Slider div.Frame.F13 { opacity: 0; left: 0; height: 100vh; transform: scale(1.5); }
+body>div.Slider div.Frame.F13.S0 { top: 0; transform: scale(1); opacity: 1; transition: opacity 1s linear, transform 5s linear, top 2s linear; }
+
+body>div.Slider div.Frame.F14 { background: #111; }
+body>div.Slider div.Frame.F14 { opacity: 0; left: 0; height: 100vh; transform: scale(1.5); }
+body>div.Slider div.Frame.F14 { font-size: 1.6rem; line-height: 100vh; text-align: center; }
+body>div.Slider div.Frame.F14.S0 { top: 0; transform: scale(1); opacity: 1; transition: opacity 2s linear, transform 5s linear, top 1s linear; }
+
+body>div.Slider div.Frame.F15 { background: #fff; }
+body>div.Slider div.Frame.F15 { opacity: 0; left: 0; height: 100vh; transform: scale(1); }
+body>div.Slider div.Frame.F15 { font-size: 1.6rem; line-height: 100vh; text-align: center; }
+body>div.Slider div.Frame.F15.S0 { top: 0; transform: scale(1.5); opacity: 1; transition: opacity 1s linear, transform 5s linear, top 1s linear; }
+
+body>div.Slider div.Frame.F16 { background: url('F16.jpg') no-repeat center top; background-size: cover; }
+body>div.Slider div.Frame.F16 { opacity: 0; left: 0; height: 100vh; transform: scale(1.5); }
+body>div.Slider div.Frame.F16.S0 { top: 0; transform: scale(1); opacity: 1; transition: opacity 1s linear, transform 5s linear, top 2s linear; }
+
+body>div.Slider div.Frame.F17 { background: url('F17.jpg') no-repeat center top; background-size: cover; }
+body>div.Slider div.Frame.F17 { opacity: 0; left: 0; width: 200vw; height: 100vh; }
+body>div.Slider div.Frame.F17.S0 { top: 0; left: -20vw; opacity: 1; transition: opacity 1s linear, left 5s linear; }
+
+body>div.Slider div.Frame.F18 { background: url('F18.jpg') no-repeat center top; background-size: cover; }
+body>div.Slider div.Frame.F18 { opacity: 0; left: -100vw; width: 200vw; height: 100vh; }
+body>div.Slider div.Frame.F18.S0 { top: 0; left: -80vw; opacity: 1; transition: opacity 1s linear, left 5s linear; }
+
+body>div.Slider div.Frame.F19 { background: url('F19.jpg') no-repeat center top; background-size: cover; }
+body>div.Slider div.Frame.F19 { opacity: 0; top: 0; left: 0; width: 140vw; height: 100vh; }
+body>div.Slider div.Frame.F19.S0 { top: -10vh; opacity: 1; transition: opacity 1s linear, top 5s linear; }
+
+body>div.Slider div.Frame.F20 { background: url('F20.jpg') no-repeat right top; background-size: cover; }
+body>div.Slider div.Frame.F20 { opacity: 0; top: -10vh; left: 0; width: 120vw; height: 120vh; }
+body>div.Slider div.Frame.F20.S0 { top: 0; left: -10vw; opacity: 1; transition: opacity 1s linear, top 5s linear, left 5s linear; }
+
+body>div.Slider div.Frame.F21 { background: url('F21.jpg') no-repeat center top; background-size: cover; }
+body>div.Slider div.Frame.F21 { opacity: 0; top: -10vh; left: 0; width: 100vw; height: 120vh; }
+body>div.Slider div.Frame.F21.S0 { top: 0; opacity: 1; transition: opacity 1s linear, top 5s linear; }
+
+body>div.Slider div.Frame.F22 { background: url('F22.jpg') no-repeat center top; background-size: cover; }
+body>div.Slider div.Frame.F22 { opacity: 0; top: -10vh; left: 0; width: 100vw; height: 120vh; }
+body>div.Slider div.Frame.F22.S0 { top: 0; opacity: 1; transition: opacity 1s linear, top 5s linear; }
+
+body>div.Slider div.Frame.F23 { background: url('F23.jpg') no-repeat center top; background-size: cover; }
+body>div.Slider div.Frame.F23 { opacity: 0; top: 0; left: 0; width: 100vw; height: 120vh; }
+body>div.Slider div.Frame.F23.S0 { top: -10vh; opacity: 1; transition: opacity 1s linear, top 5s linear; }
+
+body>div.Slider div.Frame.F24 { background: url('F24.jpg') no-repeat center top; background-size: cover; }
+body>div.Slider div.Frame.F24 { opacity: 0; top: -10vh; left: -10vw; width: 110vw; height: 120vh; }
+body>div.Slider div.Frame.F24.S0 { top: 0; left: 0; opacity: 1; transition: opacity 1s linear, top 5s linear, left 5s linear; }
+
+body>div.Slider div.Frame.F25 { background: url('F25.jpg') no-repeat center top; background-size: cover; }
+body>div.Slider div.Frame.F25 { opacity: 0; top: -10vh; left: 0; width: 100vw; height: 120vh; }
+body>div.Slider div.Frame.F25.S0 { top: 0; opacity: 1; transition: opacity 1s linear, top 5s linear; }
+
+body>div.Slider div.Frame.F26 { background: url('F26.jpg') no-repeat center top; background-size: cover; }
+body>div.Slider div.Frame.F26 { opacity: 0; top: 0; left: 0; width: 100vw; height: 120vh; }
+body>div.Slider div.Frame.F26.S0 { top: -10vh; opacity: 1; transition: opacity 1s linear, top 5s linear; }
+
+body>div.Slider div.Frame.F27 { background: url('F27.jpg') no-repeat center top; background-size: cover; }
+body>div.Slider div.Frame.F27 { opacity: 0; top: -10vh; left: -10vw; width: 110vw; height: 120vh; }
+body>div.Slider div.Frame.F27.S0 { top: 0; left: 0; opacity: 1; transition: opacity 1s linear, top 5s linear, left 5s linear; }
+
+body>div.Slider div.Frame.F28 { background: url('F28.jpg') no-repeat center top; background-size: cover; }
+body>div.Slider div.Frame.F28 { opacity: 0; top: -10vh; left: 0; width: 100vw; height: 120vh; }
+body>div.Slider div.Frame.F28.S0 { top: 0; opacity: 1; transition: opacity 1s linear, top 5s linear; }
+
+body>div.Slider div.Frame.F29 { background: url('F29.jpg') no-repeat right top; background-size: cover; }
+body>div.Slider div.Frame.F29 { opacity: 0; top: 0; left: -20vw; width: 120vw; height: 100vh; }
+body>div.Slider div.Frame.F29.S0 { top: 0;left: 0; opacity: 1; transition: opacity 1s linear, top 5s linear, left 5s linear; }
+
+body>div.Slider div.Frame.F30 { background: url('F31.jpg') no-repeat center top; background-size: cover; }
+body>div.Slider div.Frame.F30 { opacity: 0; top: 0; left: 0; width: 100vw; height: 110vh; transform: scale(1); }
+body>div.Slider div.Frame.F30.S0 { top: -10vh; left: 0; transform: scale(1.5); opacity: 1; transition: opacity 1s linear, transform 5s linear, top 5s linear; }
+
+body>div.Slider div.Frame.F31 { background: url('F30.jpg') #111 no-repeat center center; background-size: contain; }
+body>div.Slider div.Frame.F31 { opacity: 0; top: 0; left: 0; width: 100vw; height: 100vh; transform: scale(2); }
+body>div.Slider div.Frame.F31.S0 { top: 0; left: 0; opacity: 1; transform: scale(1); transition: opacity 1s linear, transform 20s linear, top 20s linear; }
+
+body>div.Slider div.Frame.F32 { background: #111; }
+body>div.Slider div.Frame.F32 { opacity: 0; left: 0; height: 100vh; transform: scale(1.5); }
+body>div.Slider div.Frame.F32 { font-size: 2rem; line-height: 100vh; text-align: center; }
+body>div.Slider div.Frame.F32.S0 { top: 0; transform: scale(1); opacity: 1; transition: opacity 5s linear, transform 10s linear, top 1s linear; }
+body>div.Slider div.Frame.F32.S1 { background: rgb(169, 0, 0); color: #fff; transition: all 5s linear; }

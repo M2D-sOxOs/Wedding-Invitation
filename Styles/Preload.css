@@ -1,0 +1,39 @@
+@keyframes GeniTick0 {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  50% {
+    transform: translateY(-10px)  translateX(-5px);
+  }
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+}
+@keyframes GeniTick1 {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  50% {
+    transform: translateY(-10px) translateX(5px);
+  }
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+}
+html,body { margin: 0; background: #f0f0f0; color: #666666; font-family: sans-serif; }
+body { font-size: 0; }
+body>div.Loading { width: 100%; height: 120px; position: absolute; top: 50%; margin: -50px 0 0 0; text-align: center; }
+body>div.Loading { opacity: 1; transition: opacity 0.1s linear 0s; }
+body>div.Loading>div.Geni { width: 100px; height: 100px; margin: 0 auto; }
+body>div.Loading>div.Geni { transition: transform 1s linear 0s; }
+body>div.Loading>div.Geni.Tick0 { animation: GeniTick0 0.1s ease-in; }
+body>div.Loading>div.Geni.Tick1 { animation: GeniTick1 0.1s ease-in; }
+body>div.Loading>div.Geni.Stop { transition: transform 1s linear 0s; }
+body>div.Loading>div.Geni>div.Upper { width: 100px; height: 50px; background: url('/Assets/Geni-Upper.png') center no-repeat; background-size: contain; }
+body>div.Loading>div.Geni>div.Lower { width: 100px; height: 64px; background: url('/Assets/Geni-Lower.png') center no-repeat; background-size: contain; margin: -15px 0 0; }
+body>div.Loading>div.Shadow { font-size: 0.75rem; color: #666666; height: 1rem; line-height: 1rem; margin: 0.5rem 0; }
+body>div.Loading>div.Subtitles { color: #666666; height: 20px; margin: 0.5rem 0 0; overflow: hidden; }
+body>div.Loading>div.Subtitles>div.Subtitle { transition: transform 0.3s ease-in-out; }
+body>div.Loading>div.Subtitles>div.Subtitle>div.Slide { font-size: 0.75rem; height: 20px; line-height: 20px; }
+body>div.Loading>div.Indicator { font-size: 0.75rem; color: #666666; height: 20px; line-height: 20px; }
+body>div.Copyright { font-size: 1rem; }

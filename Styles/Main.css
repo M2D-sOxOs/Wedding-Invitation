@@ -1,0 +1,9 @@
+@font-face {
+  font-family: Eng-Regular;
+  src: url('Font-Eng-Regular');
+}
+@font-face {
+  font-family: Chn-Regular;
+  src: url('Font-Chn-Regular');
+}
+html,body { margin: 0; background: #f0f0f0; color: #666666; font-family: Eng-Regular,Chn-Regular; overflow: hidden; }

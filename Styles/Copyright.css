@@ -1,0 +1,2 @@
+body>div.Copyright { position: absolute; z-index: 99; bottom: 1rem; left: 0; text-align: center; width: 100%; }
+body>div.Copyright { font-size: 0.5rem; color: #fff; text-shadow: 0 0 0.1rem #333; opacity: 0.5; font-family: Eng-Regular,Chn-Regular; }
