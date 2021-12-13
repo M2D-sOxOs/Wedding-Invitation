@@ -21,7 +21,7 @@ $globalScope.$MusicControl = new (class {
     this.__Audio = document.createElement('audio');
     this.__Audio.src = $globalScope.$SimpleCache.Use('Sound-Bgm-1');
     this.__Audio.autoplay = false;
-    this.__AudioContext = new AudioContext();
+    this.__AudioContext = new ((<any>window).AudioContext || (<any>window).webkitAudioContext)();
     this.__AudioGain = this.__AudioContext.createGain();
     this.__AudioGain.gain.value = 0;
     this.__AudioContext.createMediaElementSource(this.__Audio).connect(this.__AudioGain).connect(this.__AudioContext.destination);
